@@ -4,6 +4,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+// タップ／ホールドの時間設定（全体のデフォルトを200ミリ秒に設定）
+&behavior_settings {
+    tapping-term-ms = <200>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -57,17 +62,17 @@
 &trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &trans     &trans      &trans
             >;
         };
-    };
-    #define SCROLL 4
-    scroll_layer {
-        label = "Scroll";
-        bindings = <
-            &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
-            &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
-                                 &trans &trans &trans                    &trans &trans &trans
-        >;
-        // このレイヤーがONのとき、トラックボールの動きを「スクロール」に変更する設定
-        trackball-bindings = <&tsl>; 
-    };
+
+        scroll_layer {
+            label = "Scroll";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+            trackball-bindings = <&tsl>;
+        };
+    }; // ← keymap全体の閉じカッコ（すべてをこの内側に収めました）
 };
