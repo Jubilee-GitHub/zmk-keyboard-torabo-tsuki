@@ -58,7 +58,6 @@
             >;
         };
     };
-    // 既存のレイヤーのすぐ下（最後の }; の手前）に貼り付けてください
     #define SCROLL 4
     scroll_layer {
         label = "Scroll";
