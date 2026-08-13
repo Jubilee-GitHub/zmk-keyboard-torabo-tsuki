@@ -28,7 +28,7 @@
             >;
         };
 
-        layer_1 {
+        Mouse-Arrows {
             bindings = <
 &trans  &trans         &trans     &trans     &trans     &trans                     &trans    &trans       &trans    &trans         &trans   &trans
 &trans  &kp TAB        &trans     &trans     &trans     &mkp MB5                   &trans    &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &kp AT   &trans
@@ -38,7 +38,7 @@
             >;
         };
 
-        layer_2 {
+        Numkeys {
             bindings = <
 &trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans        &trans        &trans        &trans        &trans
 &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &trans
