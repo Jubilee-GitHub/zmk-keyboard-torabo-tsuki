@@ -23,8 +23,8 @@
 &trans  &trans     &trans          &trans              &trans            &trans                                       &trans       &trans             &trans                   &trans             &trans     &trans
 &trans  &kp Q      &kp W           &kp E               &kp R             &kp T                                        &kp Y        &kp U              &kp I                    &kp O              &kp P      &trans
 &trans  &kp A      &kp S           &kp D               &kp F             &kp G                                        &kp H        &kp J              &kp K                    &kp L              &kp SEMI   &trans
-&trans  &kp Z      &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp SPACE       &kp RET         &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &kp MINUS  &trans
-&trans  &kp LCTRL  &kp LGUI        &trans              &trans            &lt 2 ENTER  &kp LANGUAGE_6  &kp LANGUAGE_4  &lt 4 SPACE  &mo 1              &kp RALT                 &kp RGUI           &kp FSLH   &trans
+&trans  &kp Z      &mt LEFT_ALT X  &mt LEFT_CONTROL C  &mt LEFT_SHIFT V  &kp B        &kp SPACE       &kp RET         &kp N        &mt RIGHT_SHIFT M  &mt RIGHT_CONTROL COMMA  &mt RIGHT_ALT DOT  &kp FSLH   &trans
+&trans  &kp LCTRL  &kp LGUI        &trans              &trans            &lt 2 ENTER  &kp LANGUAGE_6  &kp LANGUAGE_4  &lt 4 SPACE  &mo 1              &kp RALT                 &kp RGUI           &kp MINUS  &trans
             >;
         };
 
@@ -50,11 +50,11 @@
 
         Functions {
             bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans     &trans         &trans     &trans      &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp ESCAPE  &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10                     &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp TAB     &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE  &kp PIPE    &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &trans     &trans      &trans
+&trans  &trans      &trans   &trans        &trans        &trans                      &trans            &trans    &trans        &trans     &trans    &trans
+&trans  &kp F1      &kp F2   &kp F3        &kp F4        &kp F5                      &kp F6            &kp F7    &kp F8        &kp F9     &kp F10   &trans
+&trans  &kp DELETE  &kp F7   &kp F8        &kp F9        &kp F10                     &kp LEFT          &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp TAB   &trans
+&trans  &kp F11     &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT   &kp GRAVE     &kp TILDE  &kp PIPE  &trans
+&trans  &trans      &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans    &trans        &trans     &trans    &trans
             >;
         };
 
