@@ -50,11 +50,11 @@
 
         Functions {
             bindings = <
-&trans  &trans      &trans  &trans        &trans        &trans                      &trans            &trans    &trans        &trans     &trans    &trans
-&trans  &kp F1      &kp F2  &kp F3        &kp F4        &kp F5                      &kp F6            &kp F7    &kp F8        &kp F9     &kp F10   &trans
-&trans  &kp DELETE  &trans  &trans        &trans        &trans                      &kp LEFT          &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp TAB   &trans
-&trans  &trans      &trans  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT   &kp GRAVE     &kp TILDE  &kp PIPE  &trans
-&trans  &trans      &trans  &trans        &trans        &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans    &trans
+&trans  &trans      &trans  &trans        &trans        &trans                          &trans            &trans    &trans        &trans     &trans    &trans
+&trans  &kp F1      &kp F2  &kp F3        &kp F4        &kp F5                          &kp F6            &kp F7    &kp F8        &kp F9     &kp F10   &trans
+&trans  &kp DELETE  &trans  &trans        &trans        &trans                          &kp LEFT          &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp TAB   &trans
+&trans  &trans      &trans  &out OUT_USB  &out OUT_BLE  &trans  &bt BT_PRV  &bt BT_NXT  &kp SINGLE_QUOTE  &kp DQT   &kp GRAVE     &kp TILDE  &kp PIPE  &trans
+&trans  &trans      &trans  &trans        &trans        &trans  &trans      &trans      &trans            &trans    &trans        &trans     &trans    &trans
             >;
         };
 
